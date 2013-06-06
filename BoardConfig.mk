@@ -16,8 +16,12 @@
 
 # This variable is set first, so it can be overridden
 # by BoardConfigVendor.mk
+-include device/samsung/smdk4412-common/BoardCommonConfig.mk
+-include device/samsung/smdk4412-qcom-common/BoardCommonConfig.mk
+-include device/samsung/t0lte/BoardCommonConfig.mk
 
--include device/samsung/t0ltecdma/BoardCommonConfig.mk
+# GPS
+BOARD_GPS_SET_PRIVACY := true
 
 TARGET_OTA_ASSERT_SKIP := true
 
