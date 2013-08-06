@@ -23,6 +23,10 @@
 # GPS
 BOARD_GPS_SET_PRIVACY := true
 
+# Recovery
+TARGET_RECOVERY_FSTAB := device/samsung/l900/rootdir/fstab.smdk4x12
+RECOVERY_FSTAB_VERSION := 2
+
 TARGET_OTA_ASSERT_SKIP := true
 
 # inherit from the proprietary version
